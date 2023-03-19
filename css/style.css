@@ -1,0 +1,42 @@
+.main {
+    background-color: lightsteelblue;
+    height: 50px;
+}
+
+.button {
+    color: brown;
+}
+
+.button1 {
+    color: red;
+}
+
+@font-face {
+    font-family:"fonts";
+    src: url(/fonts/ofont.ru_Bebas\ Neue.ttf);
+}
+
+* {
+    font-family: "fonts" ;
+}
+
+.button1 {
+    font-weight: 100;
+    font-size: 12pt;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "font1";
+    src: url(/font1/ofont.ru_Montserrat.ttf);
+}
+
+* {
+    font-family: "font1";
+}
+
+.button {
+    font-weight: bolder;
+    font-size: 12pt;
+    font-style: normal;
+}
